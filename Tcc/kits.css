@@ -1,0 +1,90 @@
+﻿body{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr));
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 120vh;
+	background: linear-gradient(#B0E0E6, #4682B4);
+	background-size: cover;
+	background-position: center;
+	gap: 10px;
+	margin-top: 10px;
+	
+}
+
+.text p{
+	text-align: center;	
+	text-shadow: 2px 2px red;
+}
+
+.card {
+	background-color: #fff;
+	width: 80%;
+	height: 100%;
+	border-radius: 12px;
+	box-shadow: 4px 4px 12px #DC143C;
+	overflow: hidden;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.card:hover{
+	transform: scale3d(1.1, 1.1, 1);
+}
+
+.img{
+	border-radius: 20px;
+	width: 250px;
+	height: 250px;
+}
+
+.card div{
+	display: column;
+	flex-direction: column;
+	justify-content: column;
+	align-items: column;
+	height: 100%;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+.card h1{
+	font-size: 1.2rem;
+}
+
+.card h2{
+	font-size: .9rem;
+	color: black;
+	
+}
+
+.card button{
+	background-color: #2192ff;
+	height: 30px;
+	border: none;
+	padding: 4px;
+	width: 80%;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+
+
+.li{
+	list-style: none;
+}
+
+.a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.a.hover{
+	color: orange;
+}
